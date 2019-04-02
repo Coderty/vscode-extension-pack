@@ -1,0 +1,39 @@
+{
+  "name": "vscode-extension-pack",
+  "publisher": "Coderty",
+  "displayName": "Coderty VSCode Extension Pack",
+  "description": "VSCode extension pack by Coderty ",
+  "icon": "icon.jpg",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Coderty"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords":[
+    "Coderty", "plugins", "angular", "node"
+  ],
+  "extensionPack": [
+    "angular.ng-template",
+    "infinity1207.angular2-switcher",
+    "ionutvmi.path-autocomplete",
+    "KnisterPeter.vscode-commitizen",
+    "PKief.material-icon-theme",
+    "pnp.polacode",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderty/vscode-extension-pack.git"
+  },
+  "homepage": "https://github.com/coderty/vscode-extension-pack/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/Microsoft/vscode-wordcount/issues",
+    "email": "smcbreen@microsoft.com"
+  }
+}
